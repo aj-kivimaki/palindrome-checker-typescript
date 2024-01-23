@@ -1,6 +1,4 @@
 export function isPalindrome(input: number | string) {
-  // no display when no input
-  if (input === "") return "";
   // compare input and reversed input
   // make it string type and uppercase and remove white space for easy comparing
   let reversed = "";
